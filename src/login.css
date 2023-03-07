@@ -1,0 +1,106 @@
+label{
+  display: block;
+}
+.remember-forgot{
+  display: flex;
+}
+span{
+  display: inline;
+  margin: 0 16px;
+}
+span a{
+  text-decoration: none;
+}
+img {
+  width: 720px;
+  height: 900px;
+}
+p{
+  color: #000000;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 169px;
+}
+h1{
+  text-align: left;
+  padding-left: 169px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+p a{
+  text-decoration: none;
+  color: #2f1dd1;
+}
+.main-content{
+  text-align: center;
+}
+.remember-forgot{
+  text-align: center;
+  padding-left: 183px;
+}
+.login button{
+  background-color: #1a4f8d;
+  color: #f7eff5;
+  font-size: 20px;
+  width: 347px;
+  height: 55px;
+  border: none;
+  text-align: center;
+}
+.login-gg button{
+  background-color: #07090a;
+  color: #f7eff5;
+  font-size: 20px;
+  width: 347px;
+  height: 55px;
+  border: none;
+}
+.login-gg img{
+  width: 20px;
+  height: 20px;
+}
+.login{
+  padding-top: 25px;
+  padding-bottom: 15px;
+
+}
+.Email{
+  text-align: left;
+  margin: auto 0;
+  padding-left: 189px;
+  padding-bottom: 41px;
+}
+.Email label{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.password label{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.Email input{
+  width: 350px;
+  height: 50px;
+}
+.inp-email{
+  width: 350px;
+  height: 50px;
+  padding-top: 342px;
+padding-left: 913px;
+}
+.password input{
+    width: 350px;
+    height: 50px; 
+}
+.password{
+    text-align: left;
+    margin: auto 0;
+    padding-left: 189px; 
+    padding-bottom: 28px;
+}
+.remember-forgot span a{
+    padding-left: 115px;
+    color: #3113b8;
+}

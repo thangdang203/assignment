@@ -1,0 +1,99 @@
+*{ 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family:'Times New Roman', Times, serif
+}
+.container{ 
+    width: 1440px; 
+    margin: auto; 
+}
+.logo{ 
+    text-align: center; 
+    padding: 32px 0; 
+}
+ul{ 
+    text-align: center; 
+}
+li{ 
+    display: inline; 
+    margin: 0 16px; 
+}
+li a{ 
+    text-decoration: none; 
+    color: #000000;
+    font-size: 20px; 
+}
+.discover-champion{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 32px;
+}
+.discover-champion-content{ 
+    margin: auto 0; 
+}
+.discover-champion-content h2{ 
+    font-size: 48px; 
+}
+.discover-champion-content p{ 
+    font-size: 20px;
+    line-height: 30px; 
+    margin-top: 32px; 
+    margin-bottom: 16px; 
+    
+}
+.btn-more{ 
+    background-color: #0E4C67; 
+    color: #ffffff;
+    font-size: 20px; 
+    width: 328px;
+    height: 57px; 
+    border: none; 
+}
+.favourite-title h2{ 
+    font-size: 48px; 
+    text-align: center; 
+    padding: 64px 0; 
+}
+.favourite-content{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px; 
+    padding: 0 16px;
+}
+.footer{
+    margin-top: 64px; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    background-color: #0E4C67;
+    height: 100px;
+    padding: 0 16px; 
+}
+.copyright{
+    margin: auto 0; 
+}
+.copyright span{ 
+    color: #ffffff; 
+    font-size: 20px; 
+}
+.email{ 
+    text-align: right;
+    margin: auto 0; 
+}
+.inp-email{ 
+    width: 280px; 
+    height: 52px;
+    border: 2px solid #FFA800;
+    border-radius: 5px; 
+    background-color: transparent; 
+    padding-left: 20px; 
+}
+.btn-submit{ 
+    width: 120px; 
+    height: 52px; 
+    background-color: #FFA800;
+    border: none; 
+    border-radius: 5px; 
+    color: #ffffff; 
+    margin-left: 24px;
+}

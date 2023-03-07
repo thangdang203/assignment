@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BeaufortforLOL-Bold;
+}
+.container {
+    width: 1440px;
+    margin: auto ;
+}
+.logo
+{
+    text-align: center;
+    margin: 32px 0;
+}
+ul {
+    text-align: center;
+    margin-bottom: 42px;
+}
+.menu a:hover{
+    color: #0BE7E7;
+}
+li {
+    display: inline;
+    margin: 0 15px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.news
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+}
+.news-item{
+    margin-bottom: 20px;
+    
+}
+.info-d
+{
+    position: relative;
+    bottom: 120px;
+    margin-left: 130px;
+}
+.item-clone a img{
+    
+    margin-bottom: 100px;
+}
+.info-d p
+{
+    padding-top: 10px;
+}
+.info-d a
+{
+    text-decoration: none;
+    color: #000000;
+}
+.info  {
+    margin: auto 0;
+}
+.info p{
+    padding-bottom: 16px;
+}
+.info a{
+    text-decoration: none;
+    color: #000000;
+}
+.info-color{
+    color: #0BE7E7;
+}
+.info-bott{
+    padding-top: 70px;
+}
+.info-bott p{
+    padding-bottom: 16px;
+}
+.info-bott a{
+    text-decoration: none;
+    color: #000000;
+}
+span{
+    color: #AEAEAE;
+}
+.butt-t{
+    width: 928px;
+    height: 3px;
+    background-color: #B5B5B5;
+    margin-top: 64px;
+    border: none;
+}
+.latest-news{
+    text-align: center;
+    margin-top: 99px;
+    padding-left: 250px;
+}
+.view-latest-news a
+{
+    text-decoration: none;
+}
+.check-out{
+    height: 64px;
+    width: 1409px;
+    margin-bottom: 64px;
+    margin-top: 66px;
+    background-color: #000000;
+}
+.check-out a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.item-clone
+{
+    margin-top: 0px;
+}
+/* footer */
+.footer {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #0E4C67;
+    height: 100px;
+    padding: 0 16px;
+}
+.copyright{
+    margin: auto 0;
+    color: white;
+    font-size: 20px;
+}
+.email{
+    margin: auto 0;
+    text-align: right;
+}
+.inp-email {
+    width: 280px;
+    height: 52px;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 20px;
+}
+.btn-submit {
+    width: 120px;
+    height: 52px;
+    background-color: #FFA800;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 24px;
+}
